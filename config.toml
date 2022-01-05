@@ -3,7 +3,7 @@ baseURL = "https://jaeyeonme.github.io/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "👨‍💻꿈꾸는 태태태의 공간"
+title = "📚 | Dev Blog"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -21,21 +21,21 @@ summaryLength=500
     mobileMode = "auto"
   [params.footer]
     enable = true
-    since = 2016
+    since = 2021
   [params.home.profile]
       enable = true
       avatarURL = "/images/profile.png"
-      subtitle = "Programmer rather than coder."
+      subtitle = "Life of record"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
       social = true
   [params.social]
-    GitHub = "taetaetae"
-    Linkedin = "taetaetae"
-    Instagram = "_taetaetae"
-    Facebook = "taetaetae0"
-    Email = "taetaetae_@naver.com"
+    GitHub = "jaeyeonme"
+    Linkedin = ""
+    Instagram = ""
+    Facebook = ""
+    Email = "cjyeon1022@gmail.com"
     RSS = true
   [params.page]
     lightgallery = true
@@ -54,7 +54,7 @@ summaryLength=500
       enable = true
       [params.page.comment.utterances]
         enable = true
-        repo="taetaetae/blog-comment"
+        repo="jaeyeonme/blog_comments"
         issueTerm="pathname"
         label="Comment"
         lightTheme = "github-light"
@@ -63,7 +63,7 @@ summaryLength=500
     enable = true
     # Google Analytics
     [params.analytics.google]
-      id = "UA-86432198-1"
+      id = ""
       # whether to anonymize IP
       anonymizeIP = true
   [params.typeit]
@@ -82,8 +82,8 @@ summaryLength=500
   priority = 1
 
 [author]
-  name = "태태태"
-  link = "https://taetaetae.github.io/resume"
+  name = "Jaeeon"
+  link = ""
 
 [menu]
   [[menu.main]]
