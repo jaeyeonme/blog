@@ -2,7 +2,8 @@
 title: 영속성관리 - 내부 동작 방식
 date: 2021-12-29 12:00:00
 featuredImage: /images/JPA/jpa.png
-categories: [JPA]
+categories:
+  - JPA
 tags:
   - JPA
   - Hibernate
