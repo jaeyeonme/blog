@@ -45,6 +45,13 @@ summaryLength=500
       Facebook = true
       Linkedin = true
       Blogger = true
+    [params.page.toc]
+      # whether to enable the table of the contents
+      enable = true
+      # LoveIt NEW | 0.2.9 whether to keep the static table of the contents in front of the post
+      keepStatic = true
+      # whether to make the table of the contents in the sidebar automatically collapsed
+      auto = true
     [params.page.code]
       # whether to show the copy button of the code block
       copy = true
