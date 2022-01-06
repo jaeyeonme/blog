@@ -56,7 +56,7 @@ summaryLength=500
         enable = true
         repo="jaeyeonme/blog_comments"
         issueTerm="pathname"
-        label="Comment"
+        label=""
         lightTheme = "github-light"
         darkTheme = "github-dark"
   [params.analytics]
@@ -75,6 +75,17 @@ summaryLength=500
     cursorChar = "|"
     # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
     duration = -1
+
+  # CDN config for third-party library files
+  [params.cdn]
+    # CDN data file name, disabled by default
+    # ("jsdelivr.yml")
+    # located in "themes/LoveIt/assets/data/cdn/" directory
+    # you can store your own data files in the same path under your project:
+    # "assets/data/cdn/"
+    # ("jsdelivr.yml")
+    # "assets/data/cdn/"
+    data = "jsdelivr.yml"
 
 [sitemap]
   changefreq = "weekly"
